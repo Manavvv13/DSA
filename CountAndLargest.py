@@ -11,7 +11,7 @@ def count_and_largest(num):
     return count, largestDigit
 
 
-number = 987654
+number = int(input("Enter a Number: "))
 count, largestDigit = count_and_largest(number)
 print("Number of digits:", count)          
 print("Largest digit:", largestDigit)     
